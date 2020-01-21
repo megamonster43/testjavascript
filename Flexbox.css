@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainContent{
+    display: flex;
+    
+}
+
+.leftSideBar{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    order: 2;
+    
+    
+}
+.rightSideBar{
+    background-color: chartreuse;
+    color: black;
+    padding: 20px;
+    flex: 2;
+    order: 3;
+}
+.centerBar{
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+    flex: 3;
+    order: 1;
+
+}
+
+
+.moreBoxes{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200;
+    flex-wrap: wrap;
+    
+    
+}
+
+.box1{
+    
+    background-color: aquamarine;
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.box2{
+   
+    background-color: beige;
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+    
+}
+
+.box3{
+    
+    background-color: burlywood;
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
